@@ -10,28 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSURLProtocolLoadLocalImage/CustomProtocol.m"
-            timestampString = "556527334.811798"
+            timestampString = "556534001.269199"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "-stopLoading"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NSURLProtocolLoadLocalImage/CustomProtocol.m"
-            timestampString = "556527334.811916"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "-startLoading"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSURLProtocolLoadLocalImage/CustomProtocol.m"
-            timestampString = "556527334.811988"
+            timestampString = "556534001.269824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "+canInitWithRequest:"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSURLProtocolLoadLocalImage/CustomProtocol.m"
-            timestampString = "556527334.8120511"
+            timestampString = "556534001.270123"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
@@ -74,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSURLProtocolLoadLocalImage/CustomProtocol.m"
-            timestampString = "556527334.812111"
+            timestampString = "556534001.270578"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "-protocolClasses"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,12 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSURLProtocolLoadLocalImage/CustomProtocol.m"
-            timestampString = "556527334.812166"
+            timestampString = "556534001.271036"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "+injectNSURLSessionConfiguration"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "+exchangeNSURLSessionConfiguration"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -8,15 +8,15 @@
 
 #import "CustomProtocol.h"
 #import <objc/runtime.h>
-
+#import <WebKit/WebKit.h>
 
 @implementation CustomProtocol
-//@synthesize request;
+
 static NSString * requestkey = @"requestkey";
 + (void)start{
-    [self injectNSURLSessionConfiguration];
+    [self exchangeNSURLSessionConfiguration];
     [NSURLProtocol registerClass:[self class]];
-    Class cls = NSClassFromString(@"WKBrowsingContextController");
+    Class cls = [[[WKWebView new] valueForKey:@"browsingContextController"] class];
     SEL sel = NSSelectorFromString(@"registerSchemeForCustomProtocol:");
     if ([(id)cls respondsToSelector:sel]) {
         [(id)cls performSelector:sel withObject:@"http"];
@@ -25,11 +25,7 @@ static NSString * requestkey = @"requestkey";
     }
 }
 
-//+ (void)load{
-//    [self injectNSURLSessionConfiguration];
-//}
-
-+ (void)injectNSURLSessionConfiguration{
++ (void)exchangeNSURLSessionConfiguration{
     Class cls = NSClassFromString(@"__NSCFURLSessionConfiguration") ?: NSClassFromString(@"NSURLSessionConfiguration");
     Method originalMethod = class_getInstanceMethod(cls, @selector(protocolClasses));
     Method stubMethod = class_getInstanceMethod([self class], @selector(protocolClasses));
